@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+}
+
+#paper{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  margin-top: 5vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  border: 2px solid red;
+  color:white;
+  font-size: clamp(1rem, 2vw, 10rem);
+}
+
+#Hello{
+  color: white;
+}
