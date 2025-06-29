@@ -12,10 +12,30 @@ body{
   margin-left: 20vw;
   margin-right: 20vw;
   border: 2px solid red;
-  color:white;
+  color: black;
   font-size: clamp(1rem, 2vw, 10rem);
+  gap: 10px;
+  background-color: beige;
 }
 
-#Hello{
-  color: white;
+#chr{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#SEML{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.logo{
+  width: 30px;
+}
+
+.ref{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 0px;
 }
