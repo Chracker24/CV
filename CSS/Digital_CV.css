@@ -49,7 +49,7 @@ p{
   margin:0px;
 }
 
-#TScontainer,#ProjectContainer{
+#TScontainer,#ProjectContainer,#CPcontainer{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -58,7 +58,7 @@ p{
   gap: 0.1rem;
 }
 
-#TsLang,#TsLib,#TsTech,#TsCert,#Salary,#Lib,#Vaccine{
+#TsLang,#TsLib,#TsTech,#TsCert,#Salary,#Lib,#Vaccine,#Datathon,#AquaSnap{
   display: flex;
   flex-direction: column;
   align-self: flex-start;
@@ -69,6 +69,14 @@ p{
   font-size: 1.5rem;
 }
 
+.TScontent,.PRcontent,.CPcontent{
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
 #TsLang,#TsLib,#TsTech,#TsCert{
   background-color: rgb(85, 107, 47,0.4);
   width: 27vw;
@@ -76,13 +84,9 @@ p{
 
 #Salary,#Lib,#Vaccine{
   background-color: rgb(92, 83, 70,0.4);
-  width: 53vw;
+  width: 100%;
   }
 
-.TScontent,.PRcontent{
-  flex-direction: column;
-  align-self: flex-start;
-  margin-top: 0px;
-  font-size: 1.2rem;
-  text-align: left;
+#Datathon,#AquaSnap{
+  background-color: rgb(128, 0, 32,0.4);
 }
