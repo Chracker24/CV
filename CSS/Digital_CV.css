@@ -13,10 +13,11 @@ body{
   margin-top: 5vh;
   margin-left: 20vw;
   margin-right: 20vw;
+  border: 2px solid red;
   color: black;
   font-size: clamp(1rem, 2vw, 10rem);
   gap: 10px;
-  background-color: rgb(250, 245, 239);
+  background-color: beige;
 }
 
 #chr{
