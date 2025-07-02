@@ -49,7 +49,7 @@ p{
   margin:0px;
 }
 
-#TScontainer,#ProjectContainer,#CPcontainer,#EduContainer{
+#TScontainer,#ProjectContainer,#CPcontainer,#EduContainer,#ExtraContainer{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -59,7 +59,7 @@ p{
   width: 100%;
 }
 
-#TsLang,#TsLib,#TsTech,#TsCert,#Salary,#Lib,#Vaccine,#Datathon,#AquaSnap,#Queens,#Rajagiri{
+#TsLang,#TsLib,#TsTech,#TsCert,#Salary,#Lib,#Vaccine,#Datathon,#AquaSnap,#Queens,#Rajagiri,#Leader,#Sports,#Clubs{
   display: flex;
   flex-direction: column;
   align-self: flex-start;
@@ -70,9 +70,10 @@ p{
   font-size: 1.5rem;
 }
 
-.TScontent,.PRcontent,.CPcontent,.EduContent{
+.TScontent,.PRcontent,.CPcontent,.EduContent,.ExtraContent{
   flex-direction: column;
-  align-self: flex-start;  margin-top: 0px;
+  align-self: flex-start;  
+  margin-top: 0px;
   font-size: 1.2rem;
   text-align: left;
 }
@@ -106,4 +107,26 @@ p{
 #Rajagiri{
   background-color: rgb(0, 0, 255,0.4);
   
+}
+
+#Leader,#Sports,#Clubs{
+  width: 32%;
+}
+#Leader{
+  background-color: rgb(150, 123, 182,0.4);
+}
+
+#Sports{
+  background-color: rgb(255, 140, 0,0.4);
+}
+
+#Clubs{
+  background-color: rgb(240, 128, 128,0.4);
+}
+ul{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  flex-wrap: wrap;
 }
