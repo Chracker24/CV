@@ -59,7 +59,7 @@ p{
   width: 100%;
 }
 
-#TsLang,#TsLib,#TsTech,#TsCert,#Salary,#Lib,#Vaccine,#Datathon,#AquaSnap,#Queens,#Rajagiri,#Leader,#Sports,#Clubs{
+#TsLang,#TsLib,#TsTech,#TsCert,#Salary,#Lib,#Vaccine,#Datathon,#AquaSnap,#Queens,#Rajagiri,#Leader,#Sports,#Clubs,#Languages,#WorkAuth{
   display: flex;
   flex-direction: column;
   align-self: flex-start;
@@ -123,6 +123,15 @@ p{
 #Clubs{
   background-color: rgb(240, 128, 128,0.4);
 }
+
+#Languages, #WorkAuth{
+  width: 49%;
+}
+
+#Languages,#WorkAuth{
+  background-color: rgb(150, 123, 91,0.4);
+}
+
 ul{
   text-align: left;
   display: flex;
